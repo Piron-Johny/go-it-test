@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/piron-johny/go-it-test#readme",
   "dependencies": {
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
     "npm": "^7.18.1"
   }
 }
