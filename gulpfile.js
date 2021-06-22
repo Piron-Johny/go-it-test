@@ -1,8 +1,6 @@
-const fileinclude = require('gulp-file-include');
-const { src, dest } = require('vinyl-fs');
 
-project_folder = "dist";
-source_folder ="#src";
+let project_folder = "dist";
+let source_folder ="#src";
 
 let path = {
   build: {
@@ -13,7 +11,7 @@ let path = {
     fonts: project_folder + "/fonts/"
   },
   src: {
-    html: source_folde + "/",
+    html: source_folde + "/*.html",
     css: source_folde + "/scss/style.scss",
     js: source_folde + "/js/script.js",
     img: source_folde + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
@@ -63,4 +61,3 @@ exports.default = watch;
 
 
 
-//Досмотрел до 32:50 https://www.youtube.com/watch?v=stFOy0Noahg
